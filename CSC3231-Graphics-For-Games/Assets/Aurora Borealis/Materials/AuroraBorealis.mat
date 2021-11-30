@@ -42,7 +42,7 @@ Material:
     - NoiseScale: 30
     - WobbleAmount: 1
     - WobbleSpeed: 0.5
-    - WobleDistance: 15
+    - WobleDistance: 30
     - WobleFrequency: 2
     m_Colors:
     - NoiseSpeed: {r: 0, g: -0.025, b: 0, a: 0}

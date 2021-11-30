@@ -6,6 +6,7 @@ public class DayCycleController : MonoBehaviour
     [SerializeField] private LightingPreset preset;
     [SerializeField] private Light sun;
     [SerializeField] private float cycleSpeed = 3f;
+    [SerializeField] private GameObject aurora;
     private bool _isDay;
 
     private void Update()
@@ -37,5 +38,8 @@ public class DayCycleController : MonoBehaviour
         // Move sun
         sun.color = preset.DirectionalColor.Evaluate(alpha);
         sun.transform.localRotation = Quaternion.Euler(new Vector3((alpha * 360f) - 90f, 170f, 0));
+        
+        // Enable aurora borealis during the night
+        aurora.SetActive(alpha > 0.8 || alpha < 0.2);
     }
 }
