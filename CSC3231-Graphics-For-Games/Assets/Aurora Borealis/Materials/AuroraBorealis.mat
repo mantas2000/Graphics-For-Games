@@ -47,5 +47,5 @@ Material:
     m_Colors:
     - NoiseSpeed: {r: 0, g: -0.025, b: 0, a: 0}
     - NoiseTiling: {r: 7, g: 0.1, b: 0, a: 0}
-    - _Color: {r: 2.6980393, g: 11.984314, b: 1.254902, a: 1}
+    - _Color: {r: 0.6745098, g: 2.9960785, b: 0.3137255, a: 1}
   m_BuildTextureStacks: []
