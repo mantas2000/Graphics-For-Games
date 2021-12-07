@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.6801947, g: 0.80522394, b: 0.94640374, a: 1}
+  m_FogColor: {r: 0.25590843, g: 0.25331366, b: 0.10283078, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.0005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.8751256, g: 0.8751256, b: 0.8751256, a: 1}
+  m_AmbientSkyColor: {r: 0.21871185, g: 0.29083565, b: 0.839761, a: 1}
   m_AmbientEquatorColor: {r: 0.8621177, g: 0.96, b: 0.96, a: 0.96}
   m_AmbientGroundColor: {r: 0.6653793, g: 0.96, b: 0.33176467, a: 0.96}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 984039097}
-  m_IndirectSpecularColor: {r: 0.07021312, g: 0.09150685, b: 0.124582276, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.0011532643, g: 0.00097653666, b: 0.0004855186, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -32512,7 +32512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &807440540
 Transform:
   m_ObjectHideFlags: 0
@@ -42504,7 +42504,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.97699696, g: 0.97699696, b: 0.97699696, a: 1}
+  m_Color: {r: 0.42671347, g: 0.42671347, b: 0.42671347, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -42562,7 +42562,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984039096}
-  m_LocalRotation: {x: 0.061628457, y: 0.70441604, z: -0.70441604, w: 0.061628457}
+  m_LocalRotation: {x: 0.08641018, y: -0.13002953, z: -0.98767215, w: -0.011376117}
   m_LocalPosition: {x: 584.8, y: 262.1, z: 25.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -69695,7 +69695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1567054791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69708,10 +69708,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a1af2ce73e1874193559852526fb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeOfDay: 12
+  timeOfDay: 19
   preset: {fileID: 11400000, guid: 5a30093fff45bb84a9313b6e8803e210, type: 2}
   sun: {fileID: 984039097}
-  cycleSpeed: 4
+  cycleSpeed: 2
   aurora: {fileID: 1656734993}
 --- !u!4 &1567054792
 Transform:
@@ -100169,6 +100169,10 @@ PrefabInstance:
     - target: {fileID: 18220932, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
       propertyPath: m_WindMain
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882393046080109602, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
