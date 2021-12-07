@@ -40,7 +40,7 @@ public class PerformanceStats : MonoBehaviour
             
             // Memory stats
             if (_systemUsedMemoryRecorder.Valid)
-                sb.AppendLine($"Total Used Memory: {Mathf.Round(_systemUsedMemoryRecorder.LastValue / Mathf.Pow(10, 6))} Mb");
+                sb.AppendLine($"Total Used Memory: {Mathf.Round((float) (_systemUsedMemoryRecorder.CurrentValueAsDouble / Mathf.Pow(10, 6)))} Mb");
             
             // Display stats
             statsText.text = sb.ToString();
