@@ -69711,7 +69711,7 @@ MonoBehaviour:
   timeOfDay: 19
   preset: {fileID: 11400000, guid: 5a30093fff45bb84a9313b6e8803e210, type: 2}
   sun: {fileID: 984039097}
-  cycleSpeed: 2
+  cycleSpeed: 6
   aurora: {fileID: 1656734993}
 --- !u!4 &1567054792
 Transform:
