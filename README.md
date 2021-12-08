@@ -22,6 +22,9 @@ Apart from implementing all standard features, I also integrated some more advan
 ● Planet surface extends as far as the eye can see.<br/>
 ● Wind effect.
 
+<h2>Link of Youtube video of coursework running:</h2>
+● https://youtu.be/KdF_kYqG_yE
+
 <h2>Unity Assets used in this project:</h2>
 ● https://assetstore.unity.com/packages/tools/particles-effects/bfw-simple-dynamic-clouds-85665 <br/>
 ● https://assetstore.unity.com/packages/essentials/tutorial-projects/viking-village-urp-29140 <br/>
