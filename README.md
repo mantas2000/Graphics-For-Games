@@ -2,21 +2,21 @@
 Graphical simulation of an alien planet surface using Unity3D engine.
 
 <h2>Ownership</h2>
-● This project is soly developed by Mantas Burcikas (Newcastle University).
+● This project is solely developed by Mantas Burcikas (Newcastle University).
 
 <h2>How to run a project?</h2>
-● Just simply open project's folder in Unity Development Platform, open 'Scenes' folder and select 'Main Scene' scene to play.
+● Just simply open project's folder in Unity Development Platform, then open 'Scenes' folder and select 'Main Scene' scene to play.
 
 <h2>Controls:</h2>
 ● W,A,S,D - to move forward, left, backward and right, respectively.\
-● Q, E - to move up and down.\
+● Q,E - to move up and down.\
 ● F3 - displays scene's performance (FPS & total memory being used).
 
 <h2>Things done:</h2>
-Apart from implementing all standart features, I also integrated some more advanced graphical effects:
+Apart from implementing all standard features, I also integrated some more advanced graphical effects:
 
 ● Permanent change to the planet surface (meteor crashing into terrain).\
-● Space ship, clouds & northern lights in the sky.\
+● Space ship, clouds & northern lights graphical effects in the sky.\
 ● A day/night cycle with appropriate lighting changes.
 ● A body of realistic looking water.\
 ● Planet surface extends as far as the eye can see.\
