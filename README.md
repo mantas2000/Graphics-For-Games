@@ -9,7 +9,7 @@ Graphical simulation of an alien planet surface using Unity3D engine.
 
 <h2>Controls:</h2>
 ● W,A,S,D - to move forward, left, backward and right, respectively.\
-● Q, E  to move up and down.\
+● Q, E - to move up and down.\
 ● F3 - displays scene's performance (FPS & total memory being used).
 
 <h2>Things done:</h2>
