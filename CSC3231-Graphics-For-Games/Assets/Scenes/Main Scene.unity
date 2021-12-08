@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.25590843, g: 0.25331366, b: 0.10283078, a: 1}
+  m_FogColor: {r: 0.44027367, g: 0.43580946, b: 0.1769136, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.0005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.21871185, g: 0.29083565, b: 0.839761, a: 1}
+  m_AmbientSkyColor: {r: 0.41049895, g: 0.42917445, b: 0.7114621, a: 1}
   m_AmbientEquatorColor: {r: 0.8621177, g: 0.96, b: 0.96, a: 0.96}
   m_AmbientGroundColor: {r: 0.6653793, g: 0.96, b: 0.33176467, a: 0.96}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 984039097}
-  m_IndirectSpecularColor: {r: 0.0011532643, g: 0.00097653666, b: 0.0004855186, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.017663155, g: 0.011081975, b: 0.0049636927, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -42504,7 +42504,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.42671347, g: 0.42671347, b: 0.42671347, a: 1}
+  m_Color: {r: 0.46938485, g: 0.46938485, b: 0.46938485, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -42562,7 +42562,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984039096}
-  m_LocalRotation: {x: 0.08641018, y: -0.13002953, z: -0.98767215, w: -0.011376117}
+  m_LocalRotation: {x: 0.0869692, y: -0.065154284, z: -0.9940618, w: -0.0057002655}
   m_LocalPosition: {x: 584.8, y: 262.1, z: 25.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -69708,7 +69708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a1af2ce73e1874193559852526fb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeOfDay: 19
+  timeOfDay: 18.5
   preset: {fileID: 11400000, guid: 5a30093fff45bb84a9313b6e8803e210, type: 2}
   sun: {fileID: 984039097}
   cycleSpeed: 6
@@ -100174,7 +100174,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5882393046080109602, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
 --- !u!1 &2069927813
 GameObject:
