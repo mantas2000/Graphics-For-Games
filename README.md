@@ -6,10 +6,10 @@ Graphical simulation of an alien planet surface using Unity3D engine.
 </p>
 
 ## Ownership
-●&nbsp; This project is solely developed by Mantas Burcikas (Newcastle University).
+This project is solely developed by Mantas Burcikas (Newcastle University).
 
 ## How to run a project?
-●&nbsp; Just simply open project's folder in Unity Development Platform, then open 'Scenes' folder and select 'Main Scene' scene to play.
+Just simply open project's folder in Unity Development Platform, then open 'Scenes' folder and select 'Main Scene' scene to play.
 
 ## Controls:
 ●&nbsp; W,A,S,D - to move forward, left, backward and right, respectively.<br/>
