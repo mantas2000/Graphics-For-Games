@@ -2,7 +2,7 @@
 Graphical simulation of an alien planet surface using Unity3D engine.
 
 <p align="center">
-  <img src="/demo.gif" height="400" />
+  <img src="/demo.gif" width="70%"" />
 </p>
 
 ## Ownership
